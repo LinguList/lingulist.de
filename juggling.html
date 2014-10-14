@@ -1,0 +1,113 @@
+---
+title: Juggling
+layout: default
+type: about
+---
+<div style="display:none">3</div>
+<script src="media/jquery.fancybox.js"></script>
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/jquery.fancybox.css" />
+<style>
+a {
+  text-decoration: none;
+}
+</style>
+
+
+
+<a rel="gallery" class="fancybox" href="https://scontent-b-fra.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/p417x417/10659385_694550277285891_2824614337162697918_n.jpg?oh=716fb811e72fb942009a34f0d1b31bb9&oe=54F773C7">
+  <img style="height:autopx;margin-top:10px;max-height:200px;" src="https://scontent-b-fra.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/p417x417/10659385_694550277285891_2824614337162697918_n.jpg?oh=716fb811e72fb942009a34f0d1b31bb9&oe=54F773C7" alt="Neuss 2014" />
+</a>
+<a rel="gallery" class="fancybox" href="img/irland_2014.jpg">     
+  <img style="height:autopx;margin-top:10px;" src="img/thumbs/irland_2014.jpg" alt="Ireland 2014" />         
+</a>
+<a rel="gallery" class="fancybox" href="img/nuerthingen.gif">     
+  <img style="height:autopx;margin-top:10px;" src="img/thumbs/nuerthingen.jpg" alt="Nürtingen 2014" />     
+</a>
+<a rel="gallery" class="fancybox fancybox.iframe" href="http://www.youtube.com/embed/bfxg0EMeu04?autoplay=1">
+  <img style="height:autopx;margin-top:10px;" src="img/thumbs/duesseldorf_2011.jpg" alt="Düsseldorf 2011" />
+</a>
+<a rel="gallery" class="fancybox" href="img/berlin_2011.jpg">     
+  <img style="height:autopx;margin-top:10px;" src="img/thumbs/berlin_2011.jpg" alt="Berlin 2011" />         
+</a>
+<a rel="gallery" class="fancybox fancybox.iframe" href="http://www.youtube.com/embed/SZtcTf4xbf8?autoplay=1">
+  <img style="height:autopx;margin-top:10px;" src="img/thumbs/duesseldorf_2010.jpg" alt="Düsseldorf 2010" />
+</a>
+<a rel="gallery" class="fancybox" href="img/berlin_2010.jpg">     
+  <img style="height:autopx;margin-top:10px;" src="img/thumbs/berlin_2010.jpg" alt="Berlin 2010" />
+</a>
+<a rel="gallery" class="fancybox" href="img/wattenbach_2010.jpg"> 
+  <img style="height:autopx;margin-top:10px;" src="img/thumbs/wattenbach_2010.jpg" alt="Wattenbach 2010" />
+</a>
+<a rel="gallery" class="fancybox" href="img/shanghai_2006.jpg">   
+  <img style="height:autopx;margin-top:10px;" src="img/thumbs/shanghai_2006.jpg" alt="Shànghǎi 2006" />
+</a>
+<a rel="gallery" class="fancybox" href="img/lijiang_2005.jpg">    
+  <img style="height:autopx;margin-top:10px;" src="img/thumbs/lijiang_2005.jpg" alt="Lìjiāng 2005" />
+</a>
+<a rel="gallery" class="fancybox fancybox.iframe" href="http://www.youtube.com/embed/EjiJ7GFRi2o?autoplay=1">
+  <img style="height:autopx;margin-top:10px;" src="img/thumbs/shanghai_2005.jpg" alt="Shànghǎi 2005" />
+</a>
+<a rel="gallery" class="fancybox" href="img/denmark_2005.jpg">    
+  <img style="height:autopx;margin-top:10px;" src="img/thumbs/denmark_2005.jpg" alt="Denmark 2005" />
+</a>
+<a rel="gallery" class="fancybox fancybox.iframe" href="http://www.youtube.com/embed/9-j4oK5ZXfo?autoplay=1">
+  <img style="height:autopx;margin-top:10px;" src="img/thumbs/berlin_2005.jpg" alt="Berlin 2005" />
+</a>
+
+<script>
+$(".fancybox").fancybox({
+    beforeShow : function() {
+        var alt = this.element.find('img').attr('alt');
+        this.inner.find('img').attr('alt', alt);
+        this.title = alt;
+    }
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<ul>
+<li class="img"><object style="height: 195px; width: 320px"><param name="movie" value="http://www.youtube.com/v/bfxg0EMeu04?version=3&feature=player_detailpage"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="http://www.youtube.com/v/bfxg0EMeu04?version=3&feature=player_detailpage" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="320" height="180"></object> <br>Prometheus</li>
+
+<li class="img"><object style="height: 195px; width: 320px"><param name="movie" value="http://www.youtube.com/v/9-j4oK5ZXfo?version=3&feature=player_detailpage"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="http://www.youtube.com/v/9-j4oK5ZXfo?version=3&feature=player_detailpage" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="320" height="180"></object><br>Aesthetics</li>
+<li class="img"><object style="height: 195px; width: 320px"><param name="movie" value="http://www.youtube.com/v/SZtcTf4xbf8?version=3&feature=player_detailpage"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="http://www.youtube.com/v/SZtcTf4xbf8?version=3&feature=player_detailpage" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="320" height="180"></object><br>Juggling in Düsseldorf</li>
+<li class="img"><object style="height: 195px; width: 320px"><param name="movie" value="http://www.youtube.com/v/EjiJ7GFRi2o?version=3&feature=player_detailpage"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="http://www.youtube.com/v/EjiJ7GFRi2o?version=3&feature=player_detailpage" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="320" height="180"></object><br>Juggling in Shanghai</li>
+<li class="img"><img src="img/nuerthingen.gif" alt="Nuertingen" /><br>Nürthingen 2014</li>
+<li class="img"><img src="img/irland_2014.jpg" alt="Irland" /><br>Ireland 2014</li>
+<li class="img">
+<img src="img/berlin_2011.jpg" alt="Berlin 2011" /><br>
+Berlin 2011
+</li>
+<li class="img">
+<a target="_blank" href="http://www.youtube.com/watch?v=bfxg0EMeu04"><img src="img/duesseldorf_2011.jpg" alt="Düsseldorf 2011" /></a><br>
+Düsseldorf 2011
+</li>
+<li class="img">    
+        <a target="_blank" href="http://www.youtube.com/watch?v=SZtcTf4xbf8"><img src="img/duesseldorf_2010.jpg" alt="Düsseldorf 2010" /></a>
+        <br>
+        Düsseldorf 2010</li>
+        <li class="img">
+        <img src="img/berlin_2010.jpg" alt="Berlin 2010" /><br>Berlin 2010</li>
+<li class="img">
+<a target="_blank" href="http://www.youtube.com/watch?v=EjiJ7GFRi2o"><img src="img/shanghai_2005.jpg" alt="image 2" /></a><br>
+Shanghai 2005</li>
+   <li class="img">
+     <a target="_blank" href="http://www.youtube.com/watch?v=9-j4oK5ZXfo"><img src="img/berlin_2005.jpg" alt="Berlin 2005" /></a><br>
+        Berlin 2005</li>
+<li class="img">    
+        <img src="img/wattenbach_2010.jpg" alt="image 2" /> <br> Wattenbach 2010</li>
+        <li class="img"><img src="img/shanghai_2006.jpg" alt="image 2" /> <br>Shanghai 2006 </li>
+        <li class="img"><img src="img/denmark_2005.jpg" alt="image 2" /><br>Denmark 2005</li>
+        </ul> -->

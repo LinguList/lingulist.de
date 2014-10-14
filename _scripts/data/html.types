@@ -1,0 +1,23 @@
+journal	<em>{journal}</em> 
+title	<strong>{title}</strong>
+subtitle	<strong>. {subtitle}</strong>
+year	({year}): 
+publisher	{publisher}: 
+usera	 [{usera}]
+userb	{userb}
+pages	{pages}.
+author	{author_str}
+volume	{volume}.
+number	{number}.
+address	{address}.
+booktitle	<em>{booktitle}</em>
+venue	{venue}
+eventdate	{eventdate}
+eventtitle	&quot;{eventtitle}&quot;
+editor	{editor_str}
+organization	, {organization}
+howpublished	{howpublished}
+term	{term}
+institution	{institution}
+organisation	{organisation}
+thesis_type	{thesis_type}

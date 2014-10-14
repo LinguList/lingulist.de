@@ -1,0 +1,11 @@
+journal	*{journal}* 
+title	**{title}.** 
+subtitle	**{subtitle}.** 
+year	({year}): 
+publisher	{publisher}: 
+userb	[{userb}]. 
+pages	{pages}.
+author	{author_str}
+volume	{volume}.
+number	{number}.
+address	{address}.

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <title>Obraz</title>
+ <id>http://lingulist.dehttp://localhost/www/lingulist-obraz/_site/</id>
+ <updated>2014-10-14T12:51:00.881057Z</updated>
+ <author>
+   <name>Johann-Mattis List</name>
+ </author>
+ <link rel="self" href="http://lingulist.dehttp://localhost/www/lingulist-obraz/_site/feed.atom"/>
+ <link rel="alternate" href="http://lingulist.dehttp://localhost/www/lingulist-obraz/_site/"/>
+ 
+   <entry>
+     <title>Phylogenetic Networks of Chinese Dialects</title>
+     <id>http://lingulist.de/2014/10/14/phylogenetic-networks-of-chinese-dialects</id>
+     <link rel="alternate" href="http://lingulist.dehttp://localhost/www/lingulist-obraz/_site/2014/10/14/phylogenetic-networks-of-chinese-dialects.html"/>
+     <updated>2014-10-14T00:00:00Z</updated>
+     <content type="xhtml">
+       <div xmlns="http://www.w3.org/1999/xhtml"><p>A new paper dealing with phylogenetic networks applied to Chinese dialect
+(<a href="http://bibliography.lingpy.org?key=List2014b">List et al. 2014</a> data has now
+been officially published in <a href="http://booksandjournals.brillonline.com./content/journals/22105832/4/2">Language Dynamics and
+Change</a>
+(Volume 4, Issue 2). Unfortunately, the article is not published as Open
+Access, but I am allowed to distribute it over my personal homepage, and you can download the paper along with different kinds of supplementary material and source code from <a href="http://localhost/www/lingulist-obraz/_site/papers.html#List2014b">here</a>.</p></div>
+     </content>
+   </entry>
+ 
+   <entry>
+     <title>Image Display with fancyBox</title>
+     <id>http://lingulist.de/2014/10/14/figures-work</id>
+     <link rel="alternate" href="http://lingulist.dehttp://localhost/www/lingulist-obraz/_site/2014/10/14/figures-work.html"/>
+     <updated>2014-10-14T00:00:00Z</updated>
+     <content type="xhtml">
+       <div xmlns="http://www.w3.org/1999/xhtml"><p>Image display in the <a href="http://localhost/www/lingulist-obraz/_site/juggling.html">Juggling</a> section is now really easy using the <a href="http://fancyapps.com/fancybox/">fancyBox</a> <a href="http://jquery.com">jQuery</a> plugin. </p>
+<p>The plugin even allows to nicely display YouToube videos and slides from Speaker Deck within an iframe, and the tutorial and usage description on the project website is straightforward and easy to comprehend. </p>
+<p>This is a very nice tool.</p></div>
+     </content>
+   </entry>
+ 
+   <entry>
+     <title>Sequence Comparison in Historical Linguistics</title>
+     <id>http://lingulist.de/2014/10/13/thesis-published</id>
+     <link rel="alternate" href="http://lingulist.dehttp://localhost/www/lingulist-obraz/_site/2014/10/13/thesis-published.html"/>
+     <updated>2014-10-13T00:00:00Z</updated>
+     <content type="xhtml">
+       <div xmlns="http://www.w3.org/1999/xhtml"><p>This is rather old news, not new news, but my thesis has recently been published and can be downloaded from <a href="http://sequencecomparison.github.io">http://sequencecomparison.github.io</a>.</p>
+<p>On this website, once can download the full thesis as PDF (published Open Access with the <a href="http://dupress.de">Düsseldorf University Press</a>), the source code I created for the analyses in the thesis, and the datasets I compiled to test the new algorithms.</p>
+<p>The most recent version of all algorithms described in the thesis can be found at <a href="http://github.com/lingpy/lingpy">http://github.com/lingpy/lingpy</a>.</p></div>
+     </content>
+   </entry>
+ 
+   <entry>
+     <title>New Website Schema and Design</title>
+     <id>http://lingulist.de/2014/10/13/new-website-page</id>
+     <link rel="alternate" href="http://lingulist.dehttp://localhost/www/lingulist-obraz/_site/2014/10/13/new-website-page.html"/>
+     <updated>2014-10-13T00:00:00Z</updated>
+     <content type="xhtml">
+       <div xmlns="http://www.w3.org/1999/xhtml"><p>I am testing a new way to create my website, using <a href="http://obraz.pirx.ru">Obraz</a>, a static site generator similar to <a href="http://jekyllrb.com/">jekyll</a>, but written in pure Python.</p>
+<p>So far, I am very content with the possibilities offered by Obraz, and I think this new schema will save me a lot of time in the future, especially when writing news posts.</p>
+<p>There are still several things I have to work on, especially the layout for handheld devices which still follows the old design, but I hope to adapt everything quickly in the near future.</p>
+<p>For those interested in checking the Obraz and Python code underlying this site, the source code is available at <a href="http://github.com/lingulist.github.io">http://github.com/lingpy/lingpy/</a>.</p></div>
+     </content>
+   </entry>
+ 
+</feed>

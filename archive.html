@@ -1,0 +1,22 @@
+---
+layout: default
+title: Archive
+status: toplevelnc
+---
+<div style="display:none">t5</div>
+
+<section id="news" class="hfeed">
+  <h1>{{ page.title }} <a href="{{ site.baseurl }}/feed.atom"><img src="{{ site.baseurl }}/media/feed.png" alt="(feed)"/></a></h1>
+  {% for year, year_posts in site.posts|groupby('date.year')|reverse %}
+    <h2>{{ year }}</h2>
+    {% for month, month_posts in year_posts|groupby('date.month')|reverse %}
+      <h3>{{ site.time.strptime(month|string, '%m').strftime('%B') }}</h3>
+      {% for post in month_posts %}
+        <section class="hentry">
+          <div class="published">{{ post.date.strftime('%Y-%m-%d') }}</div>
+          <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
+        </section>
+      {% endfor %}
+    {% endfor %}
+  {% endfor %}
+</section>

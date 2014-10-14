@@ -1,0 +1,10 @@
+url: http://lingulist.de
+#baseurl: file:///home/mattis/projects/organisation/websites/lingulist-obraz/_site
+baseurl: http://lingulist.de
+tags_plugin:
+  descriptions:
+    release: Release notes
+    reference: Referenced work
+lessc: /usr/bin/lessc
+github_username: LinguList
+title: Mattis List's Homepage

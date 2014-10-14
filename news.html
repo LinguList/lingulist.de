@@ -1,0 +1,21 @@
+---
+layout: default
+title: News
+status: toplevelnc
+---
+<div style="display:none">t1</div>
+
+<h2>News <a href="{{ site.baseurl }}/feed.atom"><img src="{{ site.baseurl }}/media/feed.png" alt="(feed)"/></a></h2>
+{% for post in site.posts | batch(5) | first %}
+    <section class="hentry">
+      <div style="font-weight:bold;" class="published">{{ post.date.strftime('%Y-%m-%d') }}</div>
+      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+      {% if loop.index == 1 %}
+        {{ post.content }}
+      {% endif %}
+    </section>
+{% endfor %}
+<section class="hentry"><a href="{{ site.baseurl }}/archive.html">Archive...</a></section>
+
+
+
