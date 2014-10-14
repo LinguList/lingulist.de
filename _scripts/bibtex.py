@@ -123,7 +123,7 @@ class BibTex(object):
                 else:
                     tentry[k] = v
 
-            return ctemp[etype].format(**tentry)
+            return ctemp[etype].format(**tentry).replace('?.','?')
         
         return 'wrong type '+etype
 
