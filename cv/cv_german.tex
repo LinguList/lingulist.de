@@ -6,39 +6,9 @@
 \usepackage[left=2.0cm,top=2.5cm,right=3cm,bottom=2cm]{geometry}
 %\defbibheading{none}{}
 %\usepackage{lingulista}
-\usepackage[
-    natbib=true,
-    style=authoryear-ibid,
-    maxnames=2,
-    hyperref=true,
-    sortcites=true,
-    firstinits=true,
-    bibstyle=authoryear,
-    isbn=false,doi=false,
-    maxbibnames=15,
-    opcittracker=true,
-    loccittracker=true,
-    terseinits=true,
-    sorting=ydnt,
-    labelnumber=true,
-    backend=bibtex
-    ]{biblatex}
-\input{/home/mattis/library/latex/tex/lingulist/bibstyle}
+\usepackage{lastpage}
 \usepackage{enumitem}
-\setlength{\bibhang}{\leftmargin}
-\addtolength{\bibhang}{0.5cm}
-\defbibenvironment{bibliography}
-{\list{}
-{\setlength{\leftmargin}{\bibhang}%
-\setlength{\itemindent}{-\bibhang}%
-\setlength{\itemsep}{\bibitemsep}%
-\setlength{\parsep}{\bibparsep}}}
-{\endlist}
-{\item}
 
-\bibliography{/home/mattis/Dropbox/evobib/basic}
-
-\setlength{\bibhang}{20pt}
 
 \setmainlanguage{german}
 

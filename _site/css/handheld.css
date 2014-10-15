@@ -101,22 +101,6 @@ body {
   border: none;
 }
 
-//.innerli {
-//  //width: auto;
-//  background-color: transparent;
-//  //left: 200px;
-//  //top 41px;
-//}
-//.innerli li {
-//  list-style: none;
-//}
-//.innerli li a{
-//  border: none;
-//  color: white;
-//}
-
-//#nav li:hover ul {
-//}
 
 .mfoc:hover {
   text-decoration: underline; 
@@ -229,103 +213,155 @@ div#introduction {
   float:justify;
 }
 
-#content a.pdf {
-  color:white;
-  text-decoration: none;
+#content p.resources {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin-left: -2px;
+  text-align: right;
+}
+
+#content a.resource {
+  font-size: 75%;
+  padding: 3px;
+  border: 3px ridge lightgray;
   font-weight: bold;
-  background-color: red;
-  border: 5px ridge lightgray;
-  padding-left: 5px;padding-right:5px;;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#content a.pdf {
+				color:white;
+				background-color: red;
 
 }
 
 #content a.url {
-  background-color: orange;
-  color:white;
-  font-weight: bold;
-  text-decoration: none;
-  border: 5px ridge lightgray;
-  padding-left: 5px;padding-right:5px;;
-
+				background-color: orange;
 }
 
+#content a.doi {
+				background-color: Black;
+}
 #content a.code {
-  background-color: blue;
-  color:white;
-  font-weight: bold;
-  text-decoration: none;
-  border: 5px ridge lightgray;
-  padding-left: 5px;padding-right:5px;;
-
+				background-color: blue;
 }
 #content a.supplement {
-  background-color: YellowGreen;
-  color:white;
-  font-weight: bold;
-  text-decoration: none;
-  border: 5px ridge lightgray;
-  padding-left: 5px;padding-right:5px;;
-
+				background-color: YellowGreen;
 }
 #content a.draft {
-  background-color: Tan;
-  color:white;
-  font-weight: bold;
-  text-decoration: none;
-  border: 5px ridge lightgray;
-  padding-left: 5px;padding-right:5px;;
-
+				background-color: Tan;
 }
 #content a.bibtex {
-  background-color: cyan;
-  color:white;
-  font-weight: bold;
-  text-decoration: none;
-  border: 5px ridge lightgray;
-  padding-left: 5px;padding-right:5px;;
-
+				background-color: DarkGreen;
 }
 #content a.slides {
-  background-color: red;
-  color:white;
-  font-weight: bold;
-  text-decoration: none;
-  border: 5px ridge lightgray;
-  padding-left: 5px;padding-right:5px;;
-
+				background-color: red;
 }
 #content a.abstract {
-  background-color: blue;
-  color:white;
-  font-weight: bold;
-  text-decoration: none;
-  border: 5px ridge lightgray;
-  padding-left: 5px;padding-right:5px;;
-
+				background-color: blue;
 }
 #content a.handout {
-  background-color: LightSkyBlue;
-  color:white;
-  font-weight: bold;
-  text-decoration: none;
-  border: 5px ridge lightgray;
-  padding-left: 5px;padding-right:5px;;
-
+				background-color: LightSkyBlue;
+}
+#content a.handouts {
+				background-color: LightSkyBlue;
 }
 #content a.material {
-  background-color: green;
-  color:white;
-  font-weight: bold;
-  text-decoration: none;
-  border: 5px ridge lightgray;
-  padding-left: 5px;padding-right:5px;;
+				background-color: green;
 }
 #content hr.htrenner {
-  background-color: Orange;
-  border: 1px solid Orange;
-  height: 4px;
+				background-color: #79c56e;
+				border: 1px solid #ffffff;
+				height: 4px;
 }
 #content span.title {
-  font-weight: bold;
+				font-weight: bold;
 }
 
+div#introduction{
+				display: none
+}
+
+#content a.target_link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+#content a.target_link:hover {
+  text-decoration: none;
+}
+.teaching li {
+  list-style: none;
+}
+.teaching p {
+  text-align: justify;
+  font-weight: normal;
+  font-size: normal;
+}
+.teaching > p > span.title {
+  font-weight: bold;
+}
+.teaching > p span.handouts {
+  background-color: lightblue;
+  border: 3px solid gray;
+}
+.teaching > p > span.hanoduts > a{
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+
+h1 {
+  font-weight: bold;
+  font-size: 120%;
+  margin-bottom: 20px;
+}
+h2 {
+  font-weight: bold;
+  font-size: 105%;
+  margin-bottom: 10px;
+}
+h3 {
+  font-weight: bold;
+  font-size: 100%;
+  margin-bottom: 10px;
+}
+
+section.hentry {
+  background-color: white;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+li.paper {
+  list-style: none;
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+li.paper:nth-child(even) {background: white;}
+li.paper:nth-child(odd){background: lightgray;}
+
+li.img {
+  float: left;
+  display: inline;
+  list-style: none;
+  margin: 5px;
+}
+li.img img {
+  width: 80%;
+  display: inline;
+  margin: 5px;
+}
+
+.wrap {
+  padding: 0px;
+  margin: 0px;
+}
+
+.bibframe {
+  width: 95%;
+}
