@@ -5,7 +5,7 @@ default: build
 build:
 	cd _scripts; python update_bib.py; cd ..
 	obraz build --force
-	cd cv; xelatex cv_german.tex; xelatex cv_german.tex; cd ..;
+	cd cv; xelatex cv_german.tex; xelatex cv_german.tex; xelatex cv_english.tex; xelatex cv_english.tex cd ..;
 	sh copy_stuff.sh
 publish:
 	rsync -avz --delete _site/ $(PUBLIC_ADDRESS)
