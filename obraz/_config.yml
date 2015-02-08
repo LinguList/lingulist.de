@@ -1,7 +1,7 @@
 url: http://lingulist.de
 #baseurl: file:///home/mattis/projects/organisation/websites/lingulist-obraz/_site
 #baseurl: . 
-baseurl: http://lingulist.de
+baseurl: http://lingulist.de 
 lessc: /usr/bin/lessc
 github_username: LinguList
 title: Mattis List's Homepage

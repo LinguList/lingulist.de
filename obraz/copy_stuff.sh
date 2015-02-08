@@ -1,7 +1,10 @@
-cd img
-for i in *.svg
-do
-	cp $i ../_site/img
-done
+
+cd _site 
+cp *.html ../../
+cp -r media ../../
+cp cv/cv_german.pdf ../../
+cp -r css ../../
+cp -r 2014 ../../
+cp feed.atom ../../
 
 
