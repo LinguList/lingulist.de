@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Blogpost on Epistomological Reality 
+title: Blogpost on Epistemological Reality 
 type: news
 ---
 
