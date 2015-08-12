@@ -5,6 +5,10 @@ layout: default
 ---
 <div style="display:none">t4</div>
 
+## Winter Term 2015
+ 
+<li class="paper">List, J.-M. (2015): <strong>Computergestützter Sprachvergleich mit Python und Javascript</strong> [Computer-assisted language comparison with Python and Javascript]. Institut für Sprache und Information: Heinrich Heine Universität Düsseldorf.
+  <p class="resources"><span><a class="resource code" target="_blank" href="https://github.com/lingulist/pyjs-seminar/">CODE</a></span><span><a class="resource handouts" target="_blank" href="documents/lectures/list-2015-lecture-ws-language-comparison-python-javascript.pdf">HANDOUTS</a></span><span><a class="resource url" target="_blank" href="http://lingulist.de/pyjs/">URL</a></span></li>
 ## Summer Term 2014
  
 <li class="paper">List, J.-M. (2014): <strong>Lautwandel</strong> [Sound Change]. Institut für Sprache und Information: Heinrich Heine Universität Düsseldorf.
