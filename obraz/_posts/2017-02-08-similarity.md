@@ -1,0 +1,7 @@
+---
+layout: post
+title: Similarity in Historical Linguistics 
+type: news
+---
+
+These news are a bit old by now, but I started to reflect about the problem of similarities in historical linguistics, especially in the light of similarities among typological features as opposed to similarities in the lexicon. The results are yet another monthly blog post for David Morrison's [blog on phylogenetic networks](http://phylonetworks.blogspot.de/) which appeared a couple of days ago and [can be found here](http://phylonetworks.blogspot.de/2017/01/similarities-and-language-relationship.html). In addition, I'd like to point out that there is a short [press release](http://www.shh.mpg.de/365464/quantitative-turn-in-historical-linguistics) on our [paper on cognate detection](https://dx.doi.org/10.1371/journal.pone.0170046) which just came out last week. Although this study may seem less important from the first sight, as we merely tested software that was already published elsewhere, I am quite proud of this work, as we created a new dataset and carried out a very systematic and thorough comparison of the quality of cognate detection algorithms on different datasets from different language families. The results are surprisingly good and give me confidence that we can start using these tools in our historical linguistic research, but not as an analysis itself, but rather as the starting point of a thorough linguistic analysis in which the experts have the final word.

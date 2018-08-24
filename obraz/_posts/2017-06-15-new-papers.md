@@ -1,0 +1,11 @@
+---
+layout: post
+title: New Papers Accepted 
+type: news
+---
+
+Two new papers have been accepted during the last two weeks, and I am very glad about both publications, since they cover topics that touch the core of my project on computer-assisted language comparison. 
+
+The first is joint work with Nathan W. Hill (SOAS, London), and titled "Challenges of annotation and analysis in computer-assisted language comparison: A case study on Burmish languages". In this paper, we point to general annotation challenges when analysing South-East Asian languags in which compounding is frequent and sound correspondences are often hard to discover. We present a new database of cognate sets across 8 Burmish languages, all coded for partial cognacy, and consistently aligned. The final version of the paper which we submitted as our final version to the *Yearbook of the Poznań Linguistic Meeting* is available [here](http://lingulist.de/documents/papers/hill-list-2017-challenges-of-annotation.pdf).
+
+The second paper is joint work with Gerhard Jäger (University Tübingen), and concentrates on a problem which is often overlooked in the literature, namely the problem of how well current algorithms infer which word forms where used to express a given concept in ancestral, unattested languages. This is not a trivial problem, and we only address it from the perspective of the classical lexicostatistical word lists, where we test on three datasets (Indo-European, Austronesian, and Chinese) how well different algorithms infer the ancestral states as they are predicted by the gold standard (the proto-forms provided along with the datasets). It turns out that the algorithms do not perform very well (unfortunately, MLN, an algorithm on which I worked a lot myself, performs even worst), but when looking at the gold standard in detail, we realized that many of the errors are due to problems with the gold standards, which are themselves quite inconsistent and not very trustworthy. As a result, we think that using ancestral state reconstruction methods for this purpose of "onomasiological reconstruction" might actually really help to get a better estimate. The draft of the paper can be found [here](http://www.sfs.uni-tuebingen.de/~gjaeger/publications/asrLDC.pdf).
